@@ -10,9 +10,9 @@ The final product is a **Shiny web app** offering various insights into the car 
 ## 2. Data Extraction and Cleaning
 
 - We first created a script `Extract_Car_Details.R` that:
-  - Scraped data from `https://qatarsale.com/en/products/cars_for_sale=`
+  - Scraped data from `https://qatarsale.com/en/products/cars_for_sale`
   - Extracted information about each car: **Brand**, **Model**, **Seller**, **Year**, **Gear Type**, **Cylinder**, **Mileage**, **Price**, and **Currency**
-  - Cleaned the data: removing commas, transforming types, removing missing values.
+  - Cleaned the data: transforming types, removing missing values.
   
 - After gathering around **1000 cars**, we saved the resulting dataset as an `.rds` file:
 

@@ -78,7 +78,7 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 - **Purpose**: Shows the distribution of car prices for each brand.
 - **Insight**: You can see the **median**, **interquartile range**, and **outliers** of car prices for brands like Toyota, Nissan, Lexus, etc.
 
-![Price Boxplot Example]
+![Price Boxplot Example]https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Boxplots.png
 
 
 

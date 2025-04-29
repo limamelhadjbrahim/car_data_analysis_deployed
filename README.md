@@ -73,10 +73,12 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 ### 5.1 Boxplots
 
-#### - Boxplot of Prices by Brand
+#### - Boxplots of Prices and Mileage by Brand
 
 - **Purpose**: Shows the distribution of car prices for each brand.
+- Displays the mileage (in kilometers) distribution for each car brand.
 - **Insight**: You can see the **median**, **interquartile range**, and **outliers** of car prices for brands like Toyota, Nissan, Lexus, etc.
+- Helps understand which brands tend to have lower or higher mileage.
 
 ![Price Boxplot Example](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Boxplots.png)
 
@@ -100,12 +102,6 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 ---
 
-#### - Boxplot of Mileage by Brand
-
-- **Purpose**: Displays the mileage (in kilometers) distribution for each car brand.
-- **Insight**: Helps understand which brands tend to have lower or higher mileage.
-
-![Mileage Boxplot Example]
 
 
 
@@ -120,19 +116,15 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 
 
-
-
-
-
-
----
 
 ### 5.2 Scatter Plots
 
-#### - Mileage vs. Price Scatter Plot
+#### -Scatter Plots of Mileage vs. Price and Year of Manufacture vs. Price
 
 - **Purpose**: Shows the relationship between **mileage** and **price**.
+- Visualizes how the **year of manufacture** correlates with **price**.
 - **Insight**: Generally, cars with **lower mileage** tend to have **higher prices**.
+- **Newer cars** (recent years) have **higher prices** compared to older cars.
 
 ![Mileage vs Price Scatter](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/scatter%20.png)
 
@@ -158,12 +150,6 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 ---
 
-#### - Year of Manufacture vs. Price Scatter Plot
-
-- **Purpose**: Visualizes how the **year of manufacture** correlates with **price**.
-- **Insight**: **Newer cars** (recent years) have **higher prices** compared to older cars.
-
-![Year vs Price Scatter]
 
 
 
@@ -182,19 +168,14 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 
 
-
-
-
----
-
-### 5.3 Pie Chart(https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/proportions%20car%20seller%20.png)
+### 5.3 Pie Chart
 
 #### - Proportion of Cars Sold by Different Sellers
 
 - **Purpose**: Displays the share of car sales by different types of sellers (e.g., private sellers vs dealers).
 - **Insight**: Understands market share distribution among different sellers.
 
-![Seller Pie Chart Example]
+![Seller Pie Chart Example](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/proportions%20car%20seller%20.png)
 
 
 
@@ -220,7 +201,7 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 ### 5.4 Histograms
 
-#### - Histogram of Prices by Brand and Histogram of Prices by Year
+#### - Histograms of Prices by Brand and Year
 
 - **Purpose**: Shows the distribution of car prices for each brand.
 - Shows price distribution grouped by car's manufacturing year.
@@ -255,10 +236,10 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 ### 5.5 Bar Charts
 
-#### - Count of Cars by Gear Type and Number of Cars Sold by Seller
+#### - Counts of Cars by Gear Type and by Seller
 
 - **Purpose**: Number of cars categorized by gear type (e.g., Automatic vs Manual).
-- Number of cars sold by each seller.
+- Number of cars by seller.
 - **Insight**: Helps see which transmission type is more common.
 - Identifies the most active sellers in the market.
 
@@ -322,7 +303,7 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 ## 6. Conclusion
 
-Through this project, we:
+Through this project, I:
 - **Extracted**, **processed**, and **analyzed** car sales data from a real-world website.
 - Created **interactive visualizations** to understand trends in price, mileage, seller type, and car specifications.
 - Built and deployed a fully functional **Shiny application** to make this analysis accessible online.

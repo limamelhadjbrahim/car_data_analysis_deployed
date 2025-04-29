@@ -75,8 +75,7 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 #### - Boxplots of Prices and Mileage by Brand
 
-- **Purpose**: Shows the distribution of car prices for each brand.
-- Displays the mileage (in kilometers) distribution for each car brand.
+- **Purpose**: Shows the distribution of car prices for each brand. Displays the mileage (in kilometers) distribution for each car brand.
 - **Insight**: You can see the **median**, **interquartile range**, and **outliers** of car prices for brands like Toyota, Nissan, Lexus, etc.
 - Helps understand which brands tend to have lower or higher mileage.
 

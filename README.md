@@ -36,9 +36,9 @@ Example output:
 
 | Brand     | Model                | Seller         | Year | Gear_Type | Cylinder | Mileage | Price  | Currency |
 |-----------|-----------------------|----------------|------|-----------|----------|---------|--------|----------|
-| Toyota    | Land Cruiser GXR       | Personal | 2018 | Automatic | 6        | 52000   | 220000 | Q.R      |
-| Nissan    | Patrol Platinum        | Al Marwa         | 2019 | Automatic | 8        | 34000   | 270000 | Q.R      |
-| Lexus     | LX570                   | Personal | 2020 | Automatic | 8        | 12000   | 430000 | Q.R      |
+| Land Rover    | Range Rover Vogue SE Super charged       | Personal | 2017 | Automatic | 8        | 122000   | 109000 | Q.R      |
+| GMC    | Yukon XL        | Personal         | 2015 | Automatic | 8        | 145000   | 53000 | Q.R      |
+| Mercedes-Benz     | GLE 53 AMG Coupe                  | Personal | 2023 | Automatic | 6       | 19000   | 377000 | Q.R      |
 | ...       | ...                     | ...            | ...  | ...       | ...      | ...     | ...    | ...      |
 
 ---

@@ -36,9 +36,9 @@ Example output:
 
 | Brand     | Model                | Seller         | Year | Gear_Type | Cylinder | Mileage | Price  | Currency |
 |-----------|-----------------------|----------------|------|-----------|----------|---------|--------|----------|
-| Toyota    | Land Cruiser GXR       | Private Seller | 2018 | Automatic | 6        | 52000   | 220000 | Q.R      |
-| Nissan    | Patrol Platinum        | Dealer         | 2019 | Automatic | 8        | 34000   | 270000 | Q.R      |
-| Lexus     | LX570                   | Private Seller | 2020 | Automatic | 8        | 12000   | 430000 | Q.R      |
+| Toyota    | Land Cruiser GXR       | Personal | 2018 | Automatic | 6        | 52000   | 220000 | Q.R      |
+| Nissan    | Patrol Platinum        | Al Marwa         | 2019 | Automatic | 8        | 34000   | 270000 | Q.R      |
+| Lexus     | LX570                   | Personal | 2020 | Automatic | 8        | 12000   | 430000 | Q.R      |
 | ...       | ...                     | ...            | ...  | ...       | ...      | ...     | ...    | ...      |
 
 ---

@@ -134,7 +134,7 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 - **Purpose**: Shows the relationship between **mileage** and **price**.
 - **Insight**: Generally, cars with **lower mileage** tend to have **higher prices**.
 
-![Mileage vs Price Scatter]
+![Mileage vs Price Scatter](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/scatter%20.png)
 
 
 
@@ -187,7 +187,7 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 ---
 
-### 5.3 Pie Chart
+### 5.3 Pie Chart(https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/proportions%20car%20seller%20.png)
 
 #### - Proportion of Cars Sold by Different Sellers
 
@@ -220,41 +220,14 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 ### 5.4 Histograms
 
-#### - Histogram of Prices by Brand
+#### - Histogram of Prices by Brand and Histogram of Prices by Year
 
 - **Purpose**: Shows the distribution of car prices for each brand.
+- Shows price distribution grouped by car's manufacturing year.
 - **Insight**: Allows you to see the **most common price ranges** for each brand.
+- Reveals how prices are spread across different years.
 
-![Price by Brand Histogram]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-#### - Histogram of Prices by Year
-
-- **Purpose**: Shows price distribution grouped by car's manufacturing year.
-- **Insight**: Reveals how prices are spread across different years.
-
-![Price by Year Histogram]
+![Price by Brand Histogram](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Histograms.png)
 
 
 
@@ -277,44 +250,21 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 
 ---
+
+
 
 ### 5.5 Bar Charts
 
-#### - Count of Cars by Gear Type
+#### - Count of Cars by Gear Type and Number of Cars Sold by Seller
 
 - **Purpose**: Number of cars categorized by gear type (e.g., Automatic vs Manual).
+- Number of cars sold by each seller.
 - **Insight**: Helps see which transmission type is more common.
+- Identifies the most active sellers in the market.
 
-![Gear Type Bar Chart]
-
-
-
+![Gear Type Bar Chart](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Bar%20charts.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-#### - Number of Cars Sold by Seller
-
-- **Purpose**: Number of cars sold by each seller.
-- **Insight**: Identifies the most active sellers in the market.
-
-![Seller Count Bar Chart]
 
 
 
@@ -335,13 +285,18 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 
 ---
+
+
+
+
+
 
 ### 5.6 Cylinder vs Price Bar Chart
 
 - **Purpose**: Shows the **average car price** grouped by **cylinder count**.
 - **Insight**: Typically, cars with **more cylinders** are **more expensive**.
 
-![Cylinder vs Price Chart]
+![Cylinder vs Price Chart](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Price%20vs%20Cylinder%20count.png)
 
 
 

@@ -53,7 +53,7 @@ We created an app by:
 car_dataset <- readRDS("car_dataset.rds")
 ```
 
-- Deploying it using:
+- I created a new folder named CarApp where I copied the files car_dataset.rds and app.R. Then, I set the R working directory to this location and made the deployment using:
 
 ```r
 library(rsconnect)

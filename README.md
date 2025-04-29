@@ -75,10 +75,12 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 #### - Boxplots of Prices and Mileage by Brand
 
-- **Purpose**: Shows the distribution of car prices for each brand.
--  Displays the mileage (in kilometers) distribution for each car brand.
-- **Insight**: You can see the **median**, **interquartile range**, and **outliers** of car prices for brands like Toyota, Nissan, Lexus, etc.
--  Helps understand which brands tend to have lower or higher mileage.
+- **Purpose**:
+  - Shows the distribution of car prices for each brand.
+  -  Displays the mileage (in kilometers) distribution for each car brand.
+- **Insight**:
+  - You can see the **median**, **interquartile range**, and **outliers** of car prices for brands like Toyota, Nissan, Lexus, etc.
+  - Helps understand which brands tend to have lower or higher mileage.
 
 ![Price Boxplot Example](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Boxplots.png)
 
@@ -121,10 +123,12 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 #### -Scatter Plots of Mileage vs. Price and Year of Manufacture vs. Price
 
-- **Purpose**: Shows the relationship between **mileage** and **price**.
-- Visualizes how the **year of manufacture** correlates with **price**.
-- **Insight**: Generally, cars with **lower mileage** tend to have **higher prices**.
-- **Newer cars** (recent years) have **higher prices** compared to older cars.
+- **Purpose**:
+  - Shows the relationship between **mileage** and **price**.
+  - Visualizes how the **year of manufacture** correlates with **price**.
+- **Insight**:
+  - Generally, cars with **lower mileage** tend to have **higher prices**.
+  - **Newer cars** (recent years) have **higher prices** compared to older cars.
 
 ![Mileage vs Price Scatter](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/scatter%20.png)
 
@@ -203,10 +207,12 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 #### - Histograms of Prices by Brand and Year
 
-- **Purpose**: Shows the distribution of car prices for each brand.
-- Shows price distribution grouped by car's manufacturing year.
-- **Insight**: Allows you to see the **most common price ranges** for each brand.
-- Reveals how prices are spread across different years.
+- **Purpose**:
+  - Shows the distribution of car prices for each brand.
+  - Shows price distribution grouped by car's manufacturing year.
+- **Insight**:
+  - Allows you to see the **most common price ranges** for each brand.
+  - Reveals how prices are spread across different years.
 
 ![Price by Brand Histogram](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Histograms.png)
 
@@ -238,10 +244,12 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 #### - Counts of Cars by Gear Type and by Seller
 
-- **Purpose**: Number of cars categorized by gear type (e.g., Automatic vs Manual).
-- Number of cars by seller.
-- **Insight**: Helps see which transmission type is more common.
-- Identifies the most active sellers in the market.
+- **Purpose**:
+  -  Number of cars categorized by gear type (e.g., Automatic vs Manual).
+  - Number of cars by seller.
+- **Insight**:
+  - Helps see which transmission type is more common.
+  - Identifies the most active sellers in the market.
 
 ![Gear Type Bar Chart](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Bar%20charts.png)
 

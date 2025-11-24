@@ -5,7 +5,7 @@
 This project focuses on **extracting**, **cleaning**, **analyzing**, and **visualizing** car sale data from a website using **R**, **Shiny**, and **Plotly**.  
 The final product is a **Shiny web app** offering various insights into the car sales data in Qatar.
 
----
+
 
 ## 2. Data Extraction and Cleaning
 

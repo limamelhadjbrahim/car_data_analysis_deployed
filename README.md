@@ -10,9 +10,9 @@ The final product is a **Shiny web app** offering various insights into the car 
 ## 2. Data Extraction and Cleaning
 
 - We first created a script `Extract_Car_Details.R` that:
-  - Scraped data from `https://qatarsale.com/en/products/cars_for_sale`
-  - Extracted information about each car: **Brand**, **Model**, **Seller**, **Year**, **Gear Type**, **Cylinder**, **Mileage**, **Price**, and **Currency**
-  - Cleaned the data: transforming types, removing missing values.
+   Scraped data from `https://qatarsale.com/en/products/cars_for_sale`
+   Extracted information about each car: **Brand**, **Model**, **Seller**, **Year**, **Gear Type**, **Cylinder**, **Mileage**, **Price**, and **Currency**
+   Cleaned the data: transforming types, removing missing values.
   
 - After gathering around **1000 cars**, we saved the resulting dataset as an `.rds` file:
 
@@ -46,8 +46,8 @@ Example output:
 ## 4. Deployment of the Shiny App
 
 We created an app by:
-- Renaming `Car_Data_Insights.R` into `app.R`
-- Modifying it to directly load the dataset via:
+ Renaming `Car_Data_Insights.R` into `app.R`
+ Modifying it to directly load the dataset via:
 
 ```r
 car_dataset <- readRDS("car_dataset.rds")
@@ -75,12 +75,12 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 #### - Boxplots of Prices and Mileage by Brand
 
-- **Purpose**:
-  - Shows the distribution of car prices for each brand.
-  -  Displays the mileage (in kilometers) distribution for each car brand.
-- **Insight**:
-  - You can see the **median**, **interquartile range**, and **outliers** of car prices for brands like Toyota, Nissan, Lexus, etc.
-  - Helps understand which brands tend to have lower or higher mileage.
+  **Purpose**:
+   Shows the distribution of car prices for each brand.
+   Displays the mileage (in kilometers) distribution for each car brand.
+  **Insight**:
+   You can see the **median**, **interquartile range**, and **outliers** of car prices for brands like Toyota, Nissan, Lexus, etc.
+   Helps understand which brands tend to have lower or higher mileage.
 
 ![Price Boxplot Example](https://github.com/limamelhadjbrahim/car_data_analysis_deployed/blob/main/Boxplots.png)
 

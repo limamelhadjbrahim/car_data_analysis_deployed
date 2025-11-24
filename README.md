@@ -22,7 +22,7 @@ saveRDS(car_dataset, file = "car_dataset.rds")
 
 This allowed us to load it quickly later without re-scraping.
 
----
+
 
 ## 3. Preview of the Car Dataset
 
@@ -41,7 +41,7 @@ Example output:
 | Mercedes-Benz     | GLE 53 AMG Coupe                  | Personal | 2023 | Automatic | 6       | 19000   | 377000 | Q.R      |
 | ...       | ...                     | ...            | ...  | ...       | ...      | ...     | ...    | ...      |
 
----
+
 
 ## 4. Deployment of the Shiny App
 
@@ -65,7 +65,7 @@ rsconnect::setAccountInfo(name='my_name',
 deployApp()
 ```
 
----
+
 
 ## 5. Visualizations and Their Interpretations
 

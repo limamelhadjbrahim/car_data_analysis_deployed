@@ -9,12 +9,12 @@ The final product is a **Shiny web app** offering various insights into the car 
 
 ## 2. Data Extraction and Cleaning
 
-- We first created a script `Extract_Car_Details.R` that:
+- I first created a script `Extract_Car_Details.R` that:
    Scraped data from `https://qatarsale.com/en/products/cars_for_sale`
    Extracted information about each car: **Brand**, **Model**, **Seller**, **Year**, **Gear Type**, **Cylinder**, **Mileage**, **Price**, and **Currency**
    Cleaned the data: transforming types, removing missing values.
   
-- After gathering around **1000 cars**, we saved the resulting dataset as an `.rds` file:
+- After gathering around **1000 cars**, I saved the resulting dataset as an `.rds` file:
 
 ```r
 saveRDS(car_dataset, file = "car_dataset.rds")
@@ -45,7 +45,7 @@ Example output:
 
 ## 4. Deployment of the Shiny App
 
-We created an app by:
+I created an app by:
  Renaming `Car_Data_Insights.R` into `app.R`
  Modifying it to directly load the dataset via:
 
@@ -152,7 +152,7 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 
 
 
----
+
 
 
 
@@ -245,7 +245,7 @@ The Shiny app provides several **interactive visualizations** to explore the dat
 #### - Counts of Cars by Gear Type and by Seller
 
 - **Purpose**:
-  -  Number of cars categorized by gear type (e.g., Automatic vs Manual).
+  - Number of cars categorized by gear type (e.g., Automatic vs Manual).
   - Number of cars by seller.
 - **Insight**:
   - Helps see which transmission type is more common.
